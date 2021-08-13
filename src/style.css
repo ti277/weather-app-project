@@ -2,13 +2,45 @@ h1 {
   color: darkblue;
 }
 
-#dateTime {
-  font-size: 20px;
+h3 {
+  color: grey;
+  font-size: 15px;
+  font-weight: 100;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.units {
+  font-size: 15px;
+  position: relative;
+  top: -8px;
+}
+
+.weathericon {
+  width: 55px;
+  padding: 5px;
+}
+#searchengine {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.updated {
+  font-size: 15px;
+  font-weight: 100;
   color: rgba(0, 0, 139, 0.555);
 }
 #celsius,
 #fahrenheit {
-  font-size: 20px;
+  font-size: 15px;
   color: rgba(0, 0, 139, 0.555);
 }
 
@@ -20,6 +52,9 @@ h1 {
   color: darkblue;
 }
 
+.container {
+  max-width: 800px;
+}
 .precipitation {
   color: grey;
   font-size: 15px;
@@ -43,4 +78,41 @@ h1 {
 }
 .card-title {
   color: darkblue;
+}
+
+.col-sm-6 {
+  padding: 0;
+}
+.footnote {
+  color: grey;
+  font-size: 10px;
+  text-align: center;
+}
+
+.gitLink {
+  color: darkblue;
+  transition: ease-in-out 200ms;
+}
+
+.gitLink:hover {
+  color: grey;
+}
+
+.forecast-date {
+  font-size: 15px;
+  color: darkblue;
+  margin-top: 20px;
+}
+
+.forecast {
+  text-align: center;
+}
+.forecast-temperatures-max {
+  font-size: 15px;
+  color: darkblue;
+}
+
+.forecast-temperatures-min {
+  font-size: 15px;
+  color: rgba(0, 0, 139, 0.555);
 }
